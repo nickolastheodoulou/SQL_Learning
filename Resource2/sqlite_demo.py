@@ -20,7 +20,7 @@ def insert_emp(emp):
         # bad practice to insert python variables using this method
         #  c.execute("INSERT INTO  employees VALUES ('{}', '{}', '{}')".format(emp_1.first, emp_1.last, emp_1.pay))
 
-        # other correct method that doesnt allow sql injection
+        # other correct method that doesnt allow connection injection
         # c.execute("INSERT INTO  employees VALUES (?, ?, ?)", (emp_1.first, emp_1.last, emp_1.pay))
 
 
